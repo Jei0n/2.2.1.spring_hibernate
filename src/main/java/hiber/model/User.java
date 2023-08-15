@@ -21,7 +21,6 @@ public class User {
 
    @OneToOne(cascade = CascadeType.ALL)
    @MapsId
-   @JoinColumn(name = "car_id")
    private Car car;
 
    public User() {}
